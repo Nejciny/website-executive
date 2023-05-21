@@ -22,3 +22,22 @@ const navSlide = () => {
   
     nav.classList.toggle('active');
 };
+
+const handleSubmit = (event) =>{
+
+  event.preventDefault();
+
+  var name = document.getElementById("name").value;
+  var surname = document.getElementById("surname").value;
+  var email = document.getElementById("email").value;
+
+  console.log("Name:", name);
+  console.log("Surname:", surname);
+  console.log("Email:", email);
+
+  // clear input fields
+  document.getElementById("name").value = "";
+  document.getElementById("surname").value = "";
+  document.getElementById("email").value = "";
+
+};
