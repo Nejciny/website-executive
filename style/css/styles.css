@@ -551,6 +551,7 @@ header .header-right .nav-mobile {
 body {
   font-family: "Source Sans Pro", sans-serif;
   max-width: var(--max-width);
+  overflow-x: hidden;
   margin: auto;
   color: var(--black);
 }
