@@ -590,6 +590,10 @@ body .btn i {
   font-size: var(--font-big);
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 @media screen and (max-width: 1439px) {
   body {
     max-width: 98%;
